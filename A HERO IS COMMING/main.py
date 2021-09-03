@@ -6,7 +6,7 @@ class Main:
 
     def __init__(self):
 
-        self.window = pygame.display.set_mode([1280, 720])
+        self.window = pygame.display.set_mode([1280, 725])
         self.title = pygame.display.set_caption("Platform")
 
         self.loop = True
