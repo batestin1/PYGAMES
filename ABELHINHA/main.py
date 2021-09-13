@@ -32,7 +32,7 @@ class Main :
             self.gameover.draw(self.window)
 
         elif not self.vitoria.change_scene:
-            self.vitoria.draw(self, window)
+            self.vitoria.draw(self.window)
 
         else :
             self.menu.change_scene = False
